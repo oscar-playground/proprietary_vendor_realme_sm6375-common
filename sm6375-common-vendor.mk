@@ -506,7 +506,6 @@ PRODUCT_PACKAGES += \
     libkcl \
     libkernelmanager \
     libllvm-glnext \
-    libllvm-qcom \
     libmdsprpc \
     libmmosal-vendor \
     libscveCommon \
@@ -544,6 +543,7 @@ PRODUCT_PACKAGES += \
     libgcs \
     libhdmipassthru \
     liblistensoundmodel2 \
+    libllvm-qcom \
     libmm-hdcpmgr \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
