@@ -321,7 +321,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm6375-common/proprietary/vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml \
     vendor/realme/sm6375-common/proprietary/vendor/etc/qdcm_calib_data_tianma_ili7838a_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_ili7838a_dsc_cmd_mode_panel.xml \
     vendor/realme/sm6375-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    vendor/realme/sm6375-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/realme/sm6375-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
     vendor/realme/sm6375-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/realme/sm6375-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
@@ -1007,7 +1006,6 @@ PRODUCT_PACKAGES += \
     init.qti.chg_policy \
     init.qti.media \
     init.qti.qcv \
-    irsc_util \
     ks \
     loadalgo \
     loc_launcher \
